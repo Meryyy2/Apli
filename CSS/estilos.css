@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu-icon,
+.menu-btn{
+    display: none;
+    
+}
+/*==-nav=======*/
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    margin: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: #ffffff;
+    z-index: 100;
+   
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    margin: 5px;
+    padding: 5px 20px;
+    color: rgb(8, 8, 8);
+
+  
+}
+
+
+.logo{
+    color: rgb(73, 4, 58);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-elements a{
+    margin: 0px 10px;
+}
+
+.right-elements a i{
+    color: rgb(0, 0, 0);
+}
+
+.right-elements a:hover i{
+    color: rgb(161, 10, 124);
+    transition: all ease 0.2s;
+}
+
+
+#main{
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.main-img{
+
+    height: 500px;
+    width: 500px;
+
+}
+
+.main-img img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+.main-text{
+    max-width: 500px;
+}
+
+.main-text span{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #196123;
+    letter-spacing: 2px;
+}
+
+.main-text h1{
+    font-size: 2.2rem; 
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.main-text p{
+    color: #747474;
+    margin: 20px 0px;
+
+}
+
+.main-text a{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    color: #f8f8f8;
+    background-color: #4d8ad7;
+
+}
+
+.main-text a:hover{
+    background-color: rgb(173, 166, 179);
+    color: #ffffff;
+    transition: all ease 0.3s;
+    border: none;
+}
+
